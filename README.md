@@ -1,11 +1,11 @@
 "# python_excel_auto" 
 
-Denne guiden viser hvordan
- - Vi bruker python til å lese en excel fil
- - Vi bruker python til å editere data
- - Vi bruker python til å skrive inn i en ny fil
- - Vi kan bruke "Task Schedule" til å kjøre python automatisk
- - Vi kan bruke "Micorsoft Flow" til å sende automatiske mail
+This guide will show you how to use
+ - python to read a .xlsx files.
+ - python to analyse data.
+ - python to write data to new files.
+ - "Task Schedule" to run scripts automatically.
+ - "micorsoft flow" to send emails anytime a file is created.
 
 Bruke python til å oppdatere excel 
 For å følge denne guiden bør du ha kjennskap til å skrive python. For en guide til python for windows se her :
@@ -54,13 +54,17 @@ If you put the exemple files in the folder C:\Users\vevljoa\OneDrive\myProject i
 
 # how to start the script with Task Scheduler
 Press window-key and type "Task Schedule". 
-click the "Create task" 
-![image](https://github.com/joarvevle/python_excel_auto/assets/143795683/a26195b1-2284-4441-90e9-ebf6674fe490)
+click the "Create task"  
 
-give your task a new name :
-![image](https://github.com/joarvevle/python_excel_auto/assets/143795683/131bd7b9-bd4e-4ab0-a81e-c965fb147fe7)
+![image](https://github.com/joarvevle/python_excel_auto/assets/143795683/2dc84c8f-f82f-4d20-b44c-ea5d9ff068b2)
 
-find the "Action" task and add new
+give your task a new name :  
+
+![image](https://github.com/joarvevle/python_excel_auto/assets/143795683/05286c46-4618-4484-a6f9-063794a017ce)
+
+
+find the "Action" task and add new  
+
 ![image](https://github.com/joarvevle/python_excel_auto/assets/143795683/3a1c6aa1-573d-445f-b4b6-4ceefc5712a6)
 
 Best way to have "Task Schedule" run python scripts is to run Python.exe with your script as an argument, and "Start in (optional)" as the folder where you have stored your script. If you dont know the location of your python.exe you could run the following code in a python enviroment :
@@ -69,7 +73,7 @@ Best way to have "Task Schedule" run python scripts is to run Python.exe with yo
 print(sys.executable)
 ```
 
-Your new action should now looke like this:
+Your new action should now looke like this:  
 
 ![image](https://github.com/joarvevle/python_excel_auto/assets/143795683/91832ec7-d242-4ff7-ae4e-58080f990fce)
 
